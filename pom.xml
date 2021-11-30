@@ -44,7 +44,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			
-			<!-- iniciando -->
+			<!-- iniciando 
 			
 			<plugin>
 			  <groupId>org.springframework.boot</groupId>
@@ -71,7 +71,7 @@
 					  <JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
 					</buildArgs>
 				</configuration>
-			</plugin>
+			</plugin> -->
 			
 			<!-- for deploying application into AWS EKS -->
       <plugin>
