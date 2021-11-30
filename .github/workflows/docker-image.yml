@@ -29,7 +29,7 @@ jobs:
       run: docker build -f Dockerfile .
       # run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
       
-       name: Check out the repo
+      - name: Check out the repo
         uses: actions/checkout@v2
 
       - name: Log in to Docker Hub
