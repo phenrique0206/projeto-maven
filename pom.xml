@@ -73,7 +73,7 @@
 				</configuration>
 			</plugin> -->
 			
-			<!-- for deploying application into AWS EKS -->
+			<!-- for deploying application into AWS EKS
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-antrun-plugin</artifactId>
@@ -90,7 +90,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin> -->
 			
 		</plugins>
 	</build>
